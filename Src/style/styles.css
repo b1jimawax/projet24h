@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+main{
+    padding: 103px 80px 106px 80px;
+
+}
+.sect1{
+    height: 202px;
+    font-size:x-large;
+    border: 1px solid black;
+    padding: 30px 0px 30px 0px;
+    margin-top: 130px;
+}
+.sect2{
+    margin: 17px 0 0 0;
+    height: 374px;
+    display: grid;
+    row-gap: 60px;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 148px;
+    border: 1px solid black;
+}
+section > article {
+    height: 150px;
+    
+}
+/*le boutton avec la bordeure de couleur bleu*/
+.button{
+    height: 40px;
+    width: 130px;
+    border-radius:6px;
+    border: 1px solid #18a0fb;
+    text-align: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #18a0fb;
+}
+/*le boutton avec le font bleu*/
+.button1{
+    height: 40px;
+    width: 130px;
+    border-radius:6px;
+    color: white;
+    border: 1px solid #18a0fb;
+    background-color: #18a0fb;
+    text-align: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eclipe{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: rgb(211, 211, 211);
+}
+.rectangle{
+    height: 320px;
+    width: 100%;
+    background-color: rgb(211, 211, 211);
+}
+.rectangle2{
+    height: 320px;
+    width: 50%;
+    background-color: rgb(211, 211, 211);
+}
+.aside1{
+    height: 400px;
+    padding: 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    column-gap: 84px;
+
+}
+aside > article {
+    height: 150px;
+    width: 50%;
+}
+.bloc7{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 34px;
+    border: 1px solid black;
+   
+}
+.enfant1{
+    height: 540px;
+    width: 50%;
+    background-color: rgb(211, 211, 211);
+}
+.enfant2{
+    height: 540px;
+    width: 50%;
+    padding-top: 150px;
+}
+.text{
+    height: 240px;
+    width: 93%;
+}
+.troisbloc{
+    margin: 17px 0 0 0;
+    height: 374px;
+    display: grid;
+    row-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    border: 1px solid black;
+}
+section > article {
+    height: 150px;
+    
+}
+/*le boutton avec la bordeure de couleur bleu*/
+.button2{
+    height: 40px;
+    width: 130px;
+    border-radius:6px;
+    color: #18a0fb;
+}
+.eclipe1{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: rgb(211, 211, 211);
+}
